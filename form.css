@@ -1,0 +1,20 @@
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+h1{
+  align: center;
+
+}
+.survey-form{
+  background: #b2caf4;
+  border: 5px; solid;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-style:  normal;
+  font-family:  arial, helvetica, sans-serif;
+}

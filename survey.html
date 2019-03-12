@@ -9,7 +9,15 @@
   <body class="survey-form">
 
    <div id="title">
-     <h1>The Survey Form</h1>
+     <form>
+       <fieldset>
+         <h1 style="text-align:center; width"100%">The Survey Form</h1>
+        
+       </fieldset>
+     </form>
+
+
+      <h3>Background:</h3>
      <p>The survey seeks to collect feedback about the products and services we serve to our clients like you.
      It is crucial to assess the customer needs so that we can provide more effective solutions</p>
 
@@ -19,14 +27,13 @@
 
    <form >
      <fieldset>
-         <legend><h2>Your Information</h2></legend>
+       <legend><h2>Your Information</h2></legend>
          <label for="name">Names: </label>
          <input type="text" name="name" id="name" required placeholder="Your names"> <br/>
-       <label for="number">Phone:</label>
-       <input type="text" name="number" id="number" required placeholder="Your Phone Number"> <br>
-
-       <label for="email">Email:</label>
-       <input type="text" name="email" id="usermail" required placeholder="Enter a valid email address"> <br/>
+         <label for="number">Phone:</label>
+         <input type="text" name="number" id="number" required placeholder="Your Phone Number"> <br>
+         <label for="email">Email:</label>
+         <input type="text" name="email" id="usermail" required placeholder="Enter a valid email address"> <br/>
 
        </fieldset>
    </form>  <br>
@@ -52,8 +59,6 @@
 <p>In your own words, how best can we improve to serve you better</p>
 <textarea rows="20" cols="50">Input your text here</textarea>
 <br>
-
-<input type="submit" name="" value="">
 
 <form action="index.html" method="post">
   <p>Your feedback is important to us</p>

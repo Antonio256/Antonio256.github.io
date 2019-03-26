@@ -7,67 +7,49 @@
   </head>
 
   <body class="survey-form">
-
-   <div id="title">
-     <form>
-       <fieldset>
-         <h1 style="text-align:center; width"100%">The Survey Form</h1>
-        
-       </fieldset>
-     </form>
-
-
+      <h1>The Survey Form</h1>
       <h3>Background:</h3>
      <p>The survey seeks to collect feedback about the products and services we serve to our clients like you.
      It is crucial to assess the customer needs so that we can provide more effective solutions</p>
 
     <p>Please feel free to share feedback in the most candid manner possible</p>
 
-   </div>
+    <form class="" action="index.html" method="post">
+            <fieldset>
+              <legend><h2>Your Information</h2></legend>
+                 <label for="name">Names: </label>
+                 <input type="text" name="name" id="name" required placeholder="Your names"> <br/>
+                 <label for="number">Phone:</label>
+                 <input type="text" name="number" id="number" required placeholder="Your Phone Number"> <br>
+                 <label for="email">Email:</label>
+                 <input type="text" name="email" id="email" required placeholder="Enter a valid email address"> <br/>
 
-   <form >
-     <fieldset>
-       <legend><h2>Your Information</h2></legend>
-         <label for="name">Names: </label>
-         <input type="text" name="name" id="name" required placeholder="Your names"> <br/>
-         <label for="number">Phone:</label>
-         <input type="text" name="number" id="number" required placeholder="Your Phone Number"> <br>
-         <label for="email">Email:</label>
-         <input type="text" name="email" id="usermail" required placeholder="Enter a valid email address"> <br/>
+             </fieldset>
+          </form>  <br>
 
-       </fieldset>
-   </form>  <br>
+          <form>
+            <p>How often do you use our services?</p>
+            <input type="radio" name="name" value="Everyday">Everyday <br>
+            <input type="radio" name="name" value="once a week">Once a week<br>
+            <input type="radio" name="name" value="Once a month">Once a month<br>
+          </form>
 
-<form action="index.html" method="get">
-  <p>How often do you use our services?</p>
-  <input type="radio" name="name" value="Everyday">Everyday <br>
-  <input type="radio" name="name" value="once a week">Once a week<br>
-  <input type="radio" name="name" value="Once a month">Once a month<br>
+              <form>
+                <p>What is your best mode of channel to contact us?</p>
+                <select>
+                  <option value="phone">Phone</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="twitter">Twitter</option>
+                  <option value="email">Email</option>
+                </select>
+              </form>
 
-</form>
-<form action="index.html" method="get">
-  <p>What is your best mode of channel to contact us?</p>
-  <select>
-    <option value="phone">Phone</option>
-    <option value="facebook">Facebook</option>
-    <option value="twitter">Twitter</option>
-    <option value="email">Email</option>
+            <p>In your own words, how best can we improve to serve you better</p>
+            <textarea rows="20" cols="50">Input your text here</textarea>
+            <br>
 
-  </select>
-</form>
-
-<p>In your own words, how best can we improve to serve you better</p>
-<textarea rows="20" cols="50">Input your text here</textarea>
-<br>
-
-<form action="index.html" method="post">
-  <p>Your feedback is important to us</p>
-  <input type="submit" value="Submit">
-
-</form>
-
-  <body>
-
-
+          <p>Your feedback is important to us</p>
+          <input type="submit" value="Submit">
+        </form>
   </body>
 </html>

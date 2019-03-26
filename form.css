@@ -5,23 +5,20 @@
 
 h1{
   align: center;
+  font-family: arial; sans-serif;
+  border: 1px solid blue;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-title{
-  font-size: 20px;
-  padding: 5px;
-  text-alin: center;
-  width: 100%
-
-
-}
 
 .survey-form{
   background: #7dc9f2;
   border: thin solid black;
   margin-left: 30px;
   margin-right: 20px;
-  text-align: left;
+  text-align: left
+  font-family: Arial;
 }
 
 .title{
@@ -37,5 +34,3 @@ input[type=submit]{
   border-radius: 5px;
 
 }
-
-i

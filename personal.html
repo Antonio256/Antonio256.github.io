@@ -1,12 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personlal Profile</title>
+  </head>
+  <body>
+
 
 <h1>Anthony Atwine</h1> <br />
 <form >
-<fieldset>
 
-
-<form >
-  <fieldset>
-      <legend><h1>Contact Information</h1></legend>
+  <h2>Contact Information</h2>
     <label for="phonenumber">Phone:</label>
     <input type="text" name="phonenumber" value=""> <br /> <br />
 
@@ -16,43 +20,16 @@
     <label for="address">Address:</label>
     <input type="text" name="address" id="address"> <br /> <br />
 
-    </fieldset>
-</form>  <br />
 
-
-<form>
-
-</form>
-  <fieldset>
-    <legend><h1>Personal Information</h1></legend>
-    <label for="fname"> First Name: </label>
-    <input type="text" name="firstname"> <br /> <br />
-
-    <label for="lname"> Last Name: </label>
-    <input type="text" name="lname"> <br /> <br />
-
-    <label for="Date of Birth"> Date-Of-Birth: </label>
-    <input type="date" name="dateofbirth" value="number">
-
-    <br > <br >
-
-    <label for="Sex_2">Sex:</label>
-    <input type="radio" name="Sex" value="F" checked>Male
-
-    <br />
+  <h2>Personal Information</h2>
+    <label for="dateofbirth">Date of Birth:</label>
+    <input type="date" id="dateofbirth" name="dateofbirth" value="05-05-1980"> <br> <br>
 
     <label for="placeofbirth"> Place of Birth: </label>
-    <input type="text" name="placeofbirth"> <br /> <br />
+    <input type="text" name="placeofbirth">
 
-    </fieldset>
-</form>
 
-<br />
-
-<form >
-  <fieldset>
-      <legend><h1>Education History</h1></legend>
-
+  <h2>Education History</h2>
 <table>
     <tr>
     <td>Year</td><td>Insititution</td><td>Qualification</td>
@@ -72,12 +49,7 @@
 
 </table>
 
-    </fieldset>
-</form>
-
-<form >
-  <fieldset>
-      <legend><h1>Employment History</h1></legend>
+<h2>Employment History</h2>
 
 <table>
     <tr>
@@ -98,7 +70,12 @@
 
 </table>
 
-    </fieldset>
-</form>
-  </fieldset>
-</form>
+
+<h2>Proficiency in skills</h2>
+      <form>
+        <input type="checkbox" name="reading">Writing<br>
+        <input type="checkbox" name="publicspeech">Public SPeech<br>
+        <input type="checkbox" name="programming">Programming<br><br>
+      </form>
+</body>
+</html>

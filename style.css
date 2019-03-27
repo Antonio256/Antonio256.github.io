@@ -1,16 +1,23 @@
 *{
   margin:5px;
   padding:5px;
+  background-color: #B8B7B7;
+
 }
 
 .body{
-  background: #00bfff 
+  background-color: #B8B7B7;
 }
 .welcome{
-  background-color: #eee;
+  background-color: #eeffee;
 
 }
+
 
 .projects{
   display: block;
+}
+
+.links{
+  background-color: #E7E7E7;
 }

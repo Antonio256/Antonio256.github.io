@@ -1,23 +1,36 @@
 *{
-  margin:5px;
-  padding:5px;
-  background-color: #B8B7B7;
+  margin:10px;
+  padding:10px;
+  background-color: #adcbe3;
 
 }
 
 .body{
-  background-color: #B8B7B7;
+  background-color: skyblue;
+  width: 100px;
 }
-.welcome{
-  background-color: #eeffee;
 
+.welcome{
+  background-color: gray;
+  align-items: center;
+
+}
+
+.navigation{
+  border: 1px;
 }
 
 
 .projects{
-  display: block;
+  display: flex;
 }
 
 .links{
   background-color: #E7E7E7;
+}
+
+.profilelinks{
+  border: 2px solid black;
+  display: flex;
+  background: gray;
 }

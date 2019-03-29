@@ -6,20 +6,24 @@
     <title>Personlal Profile</title>
 
   </head>
-  <body class="container">
-<nav class= "navigation" id= "navbar">
-  <a href="#personalinfo">Personal Information</a>
-      <a href="#education1">Education</a>
+  <body>
+    <nav class= "navigation" id= "navbar">
+      <a href="#contactinfo">Contact Information</a>
+      <a href="#personalinfo">Personal Information</a>
+      <a href="#education">Education History</a>
       <a href="#employment">Employment History</a>
-</nav>
-<section class="welcome">
-  <h1>Anthony Atwine</h1> <br />
-</section>
-<section>
-  <img src="sky.jpg" width="250px" height="200px" alt="Antonio" align= "right">
-</section>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
 
-  <h2>Contact Information</h2>
+
+  <section class="welcome">
+   <h1>Anthony Atwine</h1> <br />
+  </section>
+
+  <img src="sky.jpg" width="250px" height="200px" alt="Antonio" align= "right" title="Antonio">
+
+
+  <h2 id="contactinfo">Contact Information</h2>
     <label for="phonenumber">Phone:</label>
     <input type="text" name="phonenumber" value=""> <br /> <br />
 
@@ -30,7 +34,7 @@
     <input type="text" name="address" id="address"> <br /> <br />
 
 
-  <h2>Personal Information</h2>
+  <h2 id="personalinfo">Personal Information</h2>
     <label for="dateofbirth">Date of Birth:</label>
     <input type="date" id="dateofbirth" name="dateofbirth" value="05-05-1980"> <br> <br>
 
@@ -38,7 +42,7 @@
     <input type="text" name="placeofbirth">
 
 
-  <h2>Education History</h2>
+  <h2 id="education">Education History</h2>
 <table>
     <tr>
     <td>Year</td><td>Insititution</td><td>Qualification</td>
@@ -58,9 +62,9 @@
 
 </table>
 
-<h2>Employment History</h2>
+<h2 id="employment">Employment History</h2>
 
-<table>
+ <table>
     <tr>
     <td>Year</td><td>Organisation</td><td>Position</td>
     </tr>
@@ -80,27 +84,39 @@
 </table>
 
 
-<h2>Proficiency in skills</h2>
+<h2 id="skills">Proficiency in skills</h2>
       <form>
         <input type="checkbox" name="reading">Writing<br>
         <input type="checkbox" name="publicspeech">Public SPeech<br>
         <input type="checkbox" name="programming">Programming<br><br>
       </form>
 
-<section class= "projects">
-  <h2>Projects worked on</h2>
-      <ul>
+
+<section>
+  <h2 id="projects">Projects worked on</h2>
+
         <li>Hello <a href="https://github.com/Antonio256/Hello-Git">Git Project</a></li>
-        <li>Hello WOrld</li>
-      </ul>
+        <li>Hello World</li>
+
 </section>
 
+<h2>Let us connect</h2>
+
 <section class="links">
-  <h2>Let us connect</h2>
-  <ul>
-    <li>GitHUb <a href="https://github.com/Antonio256">Profile</a></li>
-    <li> <a href="https://www.facebook.com/anthony.bakunda">Facebook</a></li>
-  </ul>
+
+
+    <a href="https://github.com/Antonio256">
+      <img src="github.png" alt="github" width="100px" height="100px" title="Github">
+    </a>
+
+    <a href="https://www.facebook.com/anthony.bakunda">
+      <img src="facebook.png" alt="facebook" width="100px" height="100px" title="Facebook">
+    </a>
+
+      <a href="https://twitter.com/JungleTales">
+        <img src="twitter.jpeg" alt="Twitter" width="100px" height="100px" title="Twitter">
+      </a>
+
 </section>
 
 </body>

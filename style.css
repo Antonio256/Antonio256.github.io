@@ -21,3 +21,18 @@
 .projects{
   display: block;
 }
+.links{
+  border: 1px solid black;
+  display: flex;
+
+}
+
+.navigation{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar{
+  border: 1px solid black;
+}
